@@ -1,0 +1,70 @@
+p{
+    width: 500px;
+    height: 500px;
+    margin: 30px;
+    padding: 50px;
+    background-color: red;
+    border-width: 2px;
+    border-style: solid;
+    border-left: 2px solid black;
+    border-right: 2px solid blue;
+    box-shadow: 0px 0px 100px green;
+    /*margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;*/
+}
+
+input{
+    outline: 2px solid red;
+}
+button{
+    height: 100px;
+    width: 100px;
+    background: rgba(255, 0, 0, 0.6);
+    border: none;
+    border-radius: 10px 0px 10px 0px;
+    box-shadow: inset 0px 0px 12px 4px black;
+}
+a:link{
+    color: black;
+}
+a:active{
+    background-color: gold;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color: yellow;
+}
+ol{
+    list-style-type: none;
+    background-color: aqua;
+    padding: 0px;
+}
+table{
+    border: 1px solid black;
+    background: blue;
+}
+tr{
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+    padding: 10px;
+    background: green;
+}
+td:hover{
+    background: white;
+    color: darkmagenta;
+}
+td:nth-child(even){
+    background: white;
+}
+body{
+    background-image: url(valuemax.jfif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
