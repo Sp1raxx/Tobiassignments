@@ -1,10 +1,7 @@
 p{
     width: 500px;
     height: 500px;
-    margin: 30px;
-    padding: 50px;
-    background-color: red;
-    border-width: 2px;
+    padding: 800px;
     border-style: solid;
     border-left: 2px solid black;
     border-right: 2px solid blue;
@@ -38,11 +35,7 @@ a:visited{
 a:hover{
     color: yellow;
 }
-ol{
-    list-style-type: none;
-    background-color: aqua;
-    padding: 0px;
-}
+
 table{
     border: 1px solid black;
     background: blue;
@@ -67,4 +60,36 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+    div#tobi{
+    background: white;
+    color: blue;
+}
+.t{
+    height: 300px;
+    color: white;
+}
+.o{
+    color: blue;
+}
+.b{
+    color: green;
+}
+.i{
+    color: blueviolet;
+}
+.l{
+    color: yellow;
+}
+.a{
+    color: skyblue;
+}
+img{
+    position: sticky;
+    top: 5px;
+    right: 5px;
+    z-index: -1;
+}
+.mom{
+    float: right;
 }

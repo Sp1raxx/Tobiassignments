@@ -1,6 +1,22 @@
-input{
+input[type="text"]{
     background: black;
-    color: white
+    color: red;
+    padding: 2px;
+    margin: 4px;
+}
+
+
+input[type="radio"]{
+    background: orangered;
+    accent-color: blue;
+}
+input[type="checkbox"]{
+    background-color: green;
+    accent-color: purple;
+}
+input[type="submit"]{
+    background: blue;
+    color: orange;
 }
 
 head{
